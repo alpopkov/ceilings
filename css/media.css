@@ -1,0 +1,152 @@
+@media (max-width: 1150px) {
+  .services__items {
+    display: block;
+  }
+
+  .services__item {
+    max-width: 80%;
+    min-height: 330px;
+    margin: 30px auto;
+  }
+
+  .form__inner {
+    background-image: none;
+  }
+}
+
+@media (max-width: 1050px) {
+  .footer__inner {
+    display: block;
+  }
+
+  .footer__map {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  .services__top {
+    display: block;
+  }
+
+  .services__title-box,
+  .form__title-box {
+    padding-left: 0;
+    text-align: center;
+    margin: 0 auto 30px;
+  }
+
+  .services__title-box:before,
+  .form__title-box:before {
+    display: none;
+  }
+
+  .services__btn {
+    text-align: center;
+  }
+
+  .form__box-inner {
+    display: block;
+  }
+
+  .form__box-left {
+    max-width: 100%;
+  }
+
+  .form__box-right {
+    max-width: 100%;
+  }
+
+  .footer__content {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  .header__btn {
+    float: none;
+    width: 100%;
+  }
+
+  .header__contacts {
+    text-align: center;
+  }
+
+  .header__btn:before {
+    display: none;
+  }
+
+  .menu ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 12px;
+    z-index: 50;
+  }
+
+  .menu li {
+    display: block;
+    text-align: center;
+  }
+
+  .menu a {
+    display: block;
+    background-color: #5bc0ea;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+  }
+
+  .menu li+li {
+    padding-left: 0;
+  }
+
+  .header__btn-menu {
+    display: block;
+  }
+
+  .slider__item-content {
+    background: transparent;
+  }
+
+  .slider__title {
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 30px;
+    color: #fff;
+  }
+
+  .back_to_top {
+    bottom: 30px;
+    right: 30px;
+  }
+
+  .services__item {
+    max-width: 100%;
+    min-height: 375px;
+    margin: 30px auto;
+  }
+
+  .footer__map {
+    display: none;
+  }
+
+}
+
+@media (max-width: 400px) {
+  .header__btn:before {
+    display: block;
+  }
+}
+
+@media (max-width: 375px) {
+  .header__email {
+    padding-right: 30px;
+  }
+}
+
+@media (min-width: 700px) {
+  .menu ul {
+    display: block !important;
+  }
+}
